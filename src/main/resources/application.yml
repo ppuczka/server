@@ -3,9 +3,6 @@ spring:
     config:
       server:
         git:
-          uri: ssh://localhost/config-repo
-          clone-on-start: true
-      username: root
-      password: s3cr3t
+          uri: https://github.com/ppuczka/config_data.git
 server:
   port: 8888
